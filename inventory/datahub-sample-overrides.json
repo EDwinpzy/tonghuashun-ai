@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-11-05T14:45:00+08:00",
+  "note": "Replacement runtime samples for documented examples that use expired or placeholder contracts. Codes were taken from the live contracts/list endpoints. Refresh contract-based samples before reusing this file much later.",
+  "samples": {
+    "/api/a-share/high-frequency/intraday": "https://datahub.10jqka.com.cn/api/a-share/high-frequency/intraday?thscode=600519.SH&date=2026-11-04",
+    "/api/a-share/high-frequency/historical": "https://datahub.10jqka.com.cn/api/a-share/high-frequency/historical?thscode=600519.SH&interval=1d&start=1793721600000&end=1793721600000",
+    "/api/futures/basis/historical": "https://datahub.10jqka.com.cn/api/futures/basis/historical?thscode=A2701.DCE",
+    "/api/futures/calendar/session-timeline": "https://datahub.10jqka.com.cn/api/futures/calendar/session-timeline?thscode=A2701.DCE",
+    "/api/futures/calendar/trading-schedule": "https://datahub.10jqka.com.cn/api/futures/calendar/trading-schedule?thscode=A2701.DCE&start_date=2026-11-01&end_date=2026-11-10",
+    "/api/futures/contracts/detail": "https://datahub.10jqka.com.cn/api/futures/contracts/detail?thscode=A2701.DCE",
+    "/api/futures/positions/contract-daily": "https://datahub.10jqka.com.cn/api/futures/positions/contract-daily?thscode=A2701.DCE&variety=A&date=2026-11-04",
+    "/api/futures/positions/contract-historical": "https://datahub.10jqka.com.cn/api/futures/positions/contract-historical?thscode=A2701.DCE&variety=A&company=%E7%91%9E%E5%A5%87%E6%9C%9F%E8%B4%A7&start_date=2026-10-01",
+    "/api/futures/prices/daily": "https://datahub.10jqka.com.cn/api/futures/prices/daily?thscode=A2701.DCE",
+    "/api/futures/prices/intraday": "https://datahub.10jqka.com.cn/api/futures/prices/intraday?thscode=A2701.DCE&session=intraday",
+    "/api/futures/warehouse-receipts/historical": "https://datahub.10jqka.com.cn/api/futures/warehouse-receipts/historical?thscode=A2701.DCE&start_date=2026-09-01&end_date=2026-09-10",
+    "/api/options/calendar/session-timeline": "https://datahub.10jqka.com.cn/api/options/calendar/session-timeline?thscode=10011425.SH",
+    "/api/options/contracts/detail": "https://datahub.10jqka.com.cn/api/options/contracts/detail?thscode=10011425.SH",
+    "/api/options/prices/daily": "https://datahub.10jqka.com.cn/api/options/prices/daily?thscode=10011425.SH",
+    "/api/options/prices/intraday": "https://datahub.10jqka.com.cn/api/options/prices/intraday?thscode=10011425.SH&session=intraday"
+  }
+}

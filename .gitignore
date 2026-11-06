@@ -1,0 +1,32 @@
+# Runtime captures that may contain private session data, tokens, or large app files.
+artifacts/session-messages.json
+artifacts/rea-js-session.json
+artifacts/runtime-datahub/
+artifacts/lumi-app-asar/
+artifacts/lumi-*.json
+artifacts/lumi-*.txt
+asar-list.txt
+
+# Local secrets and editor state.
+*.token
+*.secret
+.env
+.env.*
+.vscode/
+.idea/
+
+# Local evidence, logs, runtime state, and generated Python caches.
+artifacts/
+logs/
+*.pid
+__pycache__/
+*.py[cod]
+
+# Operating-system metadata.
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Environment templates contain placeholders; real .env files remain ignored.
+!.env.example

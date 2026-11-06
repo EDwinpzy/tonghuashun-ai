@@ -1,0 +1,3 @@
+interface:
+  display_name: "行情查询"
+  short_description: "查询实时行情、K线、排行、DataHub与自选股分组"
